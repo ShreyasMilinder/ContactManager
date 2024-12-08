@@ -6,7 +6,7 @@ FILE_NAME = "contacts.json"
 
 # Load contacts from file
 def load_contacts():
-    if os.path.exists(FILE_NAME):
+    if os.path.exists(FILE_NAME)
         with open(FILE_NAME, "r") as file:
             return json.load(file)
     return []
